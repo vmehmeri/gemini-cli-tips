@@ -99,10 +99,10 @@ When you approve a tool that modifies the file system (like write_file or replac
 3. The Tool Call: The specific tool call that was about to be executed is also stored.
 
 ## Tip 6: Headless mode 
-Gemini CLI can also work in headless mode. Great for automation or background tasks:
+Gemini CLI can also work in headless mode. Great for automation, background tasks, or quick questions:
 
 ```
-gemini -p "Create a commit message"
+gemini -p "Explain the architecture in this codebase"
 ```
 
 ## Tip 7: Save/resume Chat sessions 
