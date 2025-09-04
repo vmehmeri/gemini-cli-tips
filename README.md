@@ -1,7 +1,16 @@
 # Gemini CLI 
 
 ## Basics
-Set environment variables to use Gemini models via Vertex AI.
+
+To authenticate, use one of 3 options:
+
+1. Login with Google (uses Gemini Code Assist licenses)
+2. Gemini API key
+3. Vertex AI
+
+For Gemini API key, simply set the `GEMINI_API_KEY` environment variable.
+
+To use Gemini models via Vertex AI, set these environment variables.
 ```
 export GOOGLE_CLOUD_PROJECT=<PROJECT_ID>
 export GOOGLE_CLOUD_LOCATION=<LOCATION>
@@ -122,3 +131,10 @@ During a session, you can type the @ symbol and start typing the name of the fil
 If you wrapped up an implementation part and want to move on to another but still keep a high-level summary of what was done, the `/compress` command is ideal for this.
 
 Context compression will run automatically when the context is exhausted. But you can trigger your own compressions strategically, to prevent "context rot"
+
+## Bonus tip: use Google Search
+Gemini CLI can use Google Search natively. Ask it, for example, for update to date documentation and code samples:
+
+```
+Search Google ADK documentation and show me some code samples from there
+```
