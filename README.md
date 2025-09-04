@@ -138,3 +138,4 @@ Gemini CLI can use Google Search natively. Ask it, for example, for update to da
 ```
 Search Google ADK documentation and show me some code samples from there
 ```
+
